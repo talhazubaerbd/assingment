@@ -10,6 +10,7 @@
     background-image: url(image/Hero-bg.png);
     height: 652px;
     width:100%;
+    margin-bottom: 72px;
     
 }
 
@@ -37,4 +38,20 @@ button{
     justify-content: center;
     align-items: center;
     position: absolute;
+}
+
+.about-dev{
+    display: flex;
+    height: 1395px;
+    width: 1140px;
+    background-color: #FAFAFB;
+    margin: auto;
+}
+
+.container-0{
+    display: block;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    position: relative;
 }
