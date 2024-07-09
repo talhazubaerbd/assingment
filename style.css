@@ -48,10 +48,12 @@ button{
     margin: auto;
 }
 
-.container-0{
-    display: block;
-    align-items: center;
-    justify-content: center;
-    margin: auto;
-    position: relative;
+.container-0 h3{
+    
+    text-align: center;
+    font-weight: bold;
+    
+    margin: 0 500px;
+     
+    
 }
