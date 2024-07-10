@@ -12,6 +12,7 @@
     width:100%;
     margin-bottom: 72px;
     
+    
 }
 
 .banner-photo{
@@ -37,23 +38,43 @@ button{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: absolute;
 }
 
 .about-dev{
-    display: flex;
+    display: fle;
     height: 1395px;
     width: 1140px;
     background-color: #FAFAFB;
     margin: auto;
 }
 
-.container-0 h3{
-    
+.container-0 {
+  
     text-align: center;
     font-weight: bold;
+    border: 2px solid black;
     
-    margin: 0 500px;
-     
+}
+.container-0{
+     align-items: ;
     
+}
+
+.container{
+    margin: 80px 97px 80px 97px;
+    border: 3px solid red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    height: 100%x;
+}    
+.btn{
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    border: 2px sodid blue;
+}
+
+.description{
+    font-weight: 300;
 }
