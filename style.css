@@ -106,7 +106,6 @@
     justify-content: center;
     /* height: 50px;
     width: 150px; */
-    border: 2px solid aqua;
     margin-top: 30px;
 }
 
@@ -158,7 +157,6 @@ iframe{
 }
 
 .support{
-    height: 184px;
     width: 80%;
     /* border: 3px solid brown; */
     /* justify-content: center;
@@ -167,8 +165,11 @@ iframe{
     margin-left: auto;
     position: relative;
     background-image: url(image/handshake.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
     background-size: cover;
     border-radius: 10px;
+    padding: 60px 0px;
     
 }
 
@@ -220,7 +221,21 @@ button:hover{
     justify-content: center;
 }
 .email{
-    border-radius: 10px;
-    height: 40px;
-    width: 200px;
+    margin-top: 15px;
+    border-radius: 5px;
+    height: 33px;
+    width: 450px;
+    padding: 0px 0px 0px 7px;
+    outline: none;
+    border: none;
+    padding: 12px;
+
+}
+.submit{
+    margin-top: 15px;
+    padding: 7px 14px 7px 14px;
+    border-radius: 5px;
+    margin-left: 10px;
+    outline: none;
+    border: none;
 }
