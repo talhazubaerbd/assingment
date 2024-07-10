@@ -23,7 +23,6 @@
 }
 
 .banner-title{
-    display: flex;
     text-align: center;
     justify-content: center;
     margin-top: 32px;
@@ -34,7 +33,6 @@
     justify-content: center;
 }
 .about-dev{
-    display: fle;
     height: 1395px;
     width: 1140px;
     background-color: #FAFAFB;
@@ -42,20 +40,18 @@
 }
 
 .container-0 {
-  
+    margin-top: 80px;
     text-align: center;
     font-weight: bold;
-    border: 2px solid black;
     
 }
 .container-0{
-     align-items: ;
+     
     
 }
 
 .container{
-    margin: 80px 97px 80px 97px;
-    border: 3px solid red;
+    margin:0px 97px 0px 97px;
     align-items: center;
     justify-content: center;
     display: flex;
@@ -66,7 +62,7 @@
     font-weight: 300;
 }
 
-button{
+.did{
    align-items: center;
    justify-content: center;
    background-color: #0d1321;
@@ -80,4 +76,61 @@ button:hover{
     cursor: pointer;
     background-color: #093615;
     transition: .5s;
+}
+
+.container-1{
+    display: flex;
+    margin-top: 50px;
+    background: linear-gradient(to right, #fff #fafafb);
+    border: 3px solid brown;
+}
+
+
+.box{
+    font-weight: 300;
+    display: block;
+    margin-top: 20px;
+}
+
+.container-text{
+    margin-top: 30px;
+    margin-left: 30px;
+    position: stati;
+    align-items: center;
+    height: 220px;
+    width: 677px;
+    justify-content: space-between;
+}
+
+.lol{
+    background: transparent;
+    color: black;
+    border: none;
+    text-decoration: underline;
+}
+
+.inspire-head{
+    align-items: center;
+    justify-content: center;
+    /* height: 50px;
+    width: 150px; */
+    border: 2px solid aqua;
+    margin-top: 30px;
+}
+
+.vedio{
+    width: 500px;
+    height: 400px;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    border: 2px solid green;
+}
+
+.inspire{
+    margin-top: 30px;
+}
+
+a{
+    font-weight: 300;
 }
