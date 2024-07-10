@@ -67,7 +67,10 @@
    border-radius: 10px;
    font-size: 20px;
 }
-
+.did:hover{
+    background-color: #3A4AC3;
+    transition: .5s;
+}
 
 .container-1{
     display: flex;
@@ -118,10 +121,7 @@
     border: 2px solid green;
 }
 
-.inspire{
-    margin-top: 30px;
-    
-}
+
 
 a{
     font-weight: 300;
@@ -142,11 +142,6 @@ a{
 }
 .current-targetP{
     margin-top: 100px;
-}
-
-iframe{
-    border-radius: 15px;
-    margin-right: 50%;
 }
 
 .card-container{
@@ -238,4 +233,21 @@ button:hover{
     margin-left: 10px;
     outline: none;
     border: none;
+}
+
+.iframe_div{
+    margin-top: 20px;
+    padding: 20px;
+    border: solid rgb(238, 238, 238) 3px;
+    border-radius: 15px;
+}
+.mahbub{
+    border: 0;
+    border-radius: 15px; /* Set your desired border radius */
+}
+
+.inspire{
+    margin: 0 auto;
+    position: relative;
+    width: 80%; /* Set your desired width */
 }
