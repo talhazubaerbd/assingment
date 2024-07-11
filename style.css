@@ -74,10 +74,8 @@
 
 .container-1{
     display: flex;
-    margin-top: 50px;
-    background: linear-gradient(to right, #fff #fafafb);
-    border: 3px solid brown;
-    border-radius: 10px;
+    margin: 50px;
+   
 }
 
 
@@ -88,13 +86,8 @@
 }
 
 .container-text{
-    margin-top: 30px;
-    margin-left: 30px;
-    position: stati;
-    align-items: center;
-    height: 220px;
-    width: 677px;
-    justify-content: space-between;
+    padding: 50px;
+    margin-right: 100px;
 }
 
 .lol{
@@ -250,4 +243,40 @@ button:hover{
     margin: 0 auto;
     position: relative;
     width: 80%; /* Set your desired width */
+}
+
+.foot{
+    display: flex;
+    justify-content: space-around;
+    padding: 50px;
+    background-color: #f7f8f8;
+    margin-top: 10px;
+}
+
+.footer-logo{
+    margin-right: 15px;
+}
+
+.container-2{
+    display: flex;
+    margin: 50px;
+}
+.container-fox{
+    padding: 50px;
+    margin-right: 100px;
+
+}
+.container-3{
+    display: flex;
+    margin: 50px;
+}
+
+.last{
+    padding: 50px;
+    margin-left: 100px;
+}
+
+.btn-box{
+    border: 2px sodid black;
+    text-decoration: none;
 }
